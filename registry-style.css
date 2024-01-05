@@ -50,6 +50,12 @@ body {
     display: grid;
     place-content: center;
     background: linear-gradient(#958E69, #000000);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 main {
@@ -132,4 +138,10 @@ button {
 
 button:is(:focus,:hover) {
     background-color: #ddd;
+}
+
+input:is(:focus,:focus-visible) {
+  border-bottom: 1px solid black;
+  transition: all .3s ease-in;
+  border-bottom: 1px solid black;
 }
